@@ -41,9 +41,13 @@ button{
     padding-left: 24px;
     padding-right: 24px;
 }
+.ham{
+    display: none;
+}
 .Img{
     top:-350px;
     left: 850px;
+    
 }
 h3{
     font-size: 25px;
@@ -118,4 +122,49 @@ h4{
 .main-Img{
     left:550px;
     top:-900px;
+}
+
+@media screen and (max-width:800px){
+
+    .nav-item{
+        display: none;
+
+    }
+    .logo{
+    position: relative;
+        left: 250px;
+        top: 0px;
+    }
+    .sub-headlines{
+        top: 120px;
+    }
+    .text{
+      top: -180px;
+      font-size: larger;
+    }
+    button{
+        font-size: 40px;
+    }
+    .right-section,.dots{
+        top: 120px;
+    }
+    .action-b{
+        top: -880px;
+        left: 80px;
+    }
+    .main-Img{
+        left: -20px;
+        top: -20px;
+        width: 800px;
+    }
+    .dots{
+        left: -650px;
+        top: 150px;
+
+    }
+  
+    .head{
+       display: none;
+        
+    }
 }
